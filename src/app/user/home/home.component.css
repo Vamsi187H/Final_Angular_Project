@@ -1,0 +1,26 @@
+a {
+  text-decoration: none;
+}
+/* .classs {
+  background-image: url("http://localhost/download (1).jpg");
+  background-size: cover;
+} */
+img {
+  width: 17px;
+  height: 17px;
+  padding-right: 3px;
+  cursor: pointer;
+  /* border: 1px solid greenyellow; */
+}
+.class {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  margin: 0 0.5rem;
+}
+.lgo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
