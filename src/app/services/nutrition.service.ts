@@ -11,10 +11,10 @@ export class NutritionService {
   }
   constructor(private http: HttpClient) {}
   getPro(): Observable<any> {
-    return this.http.get('http://localhost:4500/Products');
+    return this.http.get(' http://localhost:4500/Nutrition');
   }
 
   getDetails(id: any): Observable<any> {
-    return this.http.get('http://localhost:4500/Products/' + id);
+    return this.http.get(' http://localhost:4500/Nutrition/' + id);
   }
 }

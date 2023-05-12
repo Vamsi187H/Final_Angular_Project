@@ -1,0 +1,54 @@
+<mat-toolbar class="tb">
+  <div class="class">
+    <div class="lgo">
+      <div class="lft">
+        <span>
+          <img src="http://localhost/download (1).jpg" alt="img" />
+          <a class="home" (click)="navigate('')" style="cursor: pointer"
+            >FitPro</a
+          >
+        </span>
+
+        <!-- <button
+          class="comp"
+          mat-button
+          [matMenuTriggerFor]="menu"
+          style="font-family: Arial, Helvetica, sans-serif"
+        >
+          more_vert
+        </button> -->
+        <!-- <mat-menu class="menu" #menu="matMenu"> -->
+        <!-- <a class="forum" (click)="navigate('menu')" style="cursor: pointer"
+          >Menu</a
+        > -->
+        <a class="forum" (click)="navigate('../forum')" style="cursor: pointer"
+          >Forum</a
+        >
+        <!-- <a class="forum" (click)="navigate('forum')" style="cursor: pointer"
+          >Forum</a
+        >
+        <a class="forum" (click)="navigate('comp')" style="cursor: pointer"
+          >Complaints</a
+        >
+        <a class="forum" (click)="navigate('dietp')" style="cursor: pointer"
+          >DietPlan</a
+        > -->
+        <!-- </mat-menu> -->
+      </div>
+      <div class="rgt">
+        <a class="logout" (click)="logout()" style="cursor: pointer">Logout</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- <button
+    mat-icon-button
+    [matMenuTriggerFor]="menu"
+    aria-label="Example icon-button with a menu"
+  >
+    <mat-icon>more_vert</mat-icon>
+  </button>
+  
+  </mat-menu> -->
+</mat-toolbar>
+<hr />

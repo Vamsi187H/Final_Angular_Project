@@ -41,6 +41,9 @@ export class LoginComponent implements OnInit {
       this.status = true;
       this.log.login(this.email, this.password).subscribe({
         next: (response: any) => {
+          // this.userService.loggedUserDetails = response.user;
+
+          // sessionStorage.setItem('userDetails', JSON.stringify(response.user));
           sessionStorage.setItem('username', response.user.username);
           sessionStorage.setItem('usertype', response.user.type);
           sessionStorage.setItem('token', response.accessToken);

@@ -7,6 +7,8 @@ import { ActivatedRoute, Router } from '@angular/router';
   styleUrls: ['./mainpage.component.css'],
 })
 export class MainpageComponent {
+  // showFiller = false;
+  searchText: any;
   constructor(private router: Router, private route: ActivatedRoute) {}
   navigate(url: string) {
     if (url == '') {

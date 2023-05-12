@@ -1,5 +1,6 @@
-<div id="login-card" *ngIf="logform">
-  <!-- <div id="image-left"><img src="http://localhost/download (1).jpg" /></div> -->
+<!-- <div id="login-card" *ngIf="logform">
+  
+  <div id="image-left"><img src="http://localhost/download (1).jpg" /></div>
   <table id="log-table">
     <tr>
       <th>Email</th>
@@ -69,4 +70,99 @@
     <img src="http://localhostloading.gif" />
   </div>
   <div class="errors">{{ rerror }}</div>
+</div> -->
+
+<!----------------------------------------------------------------------->
+
+<html>
+  <body>
+    <!-- CODE HERE-->
+    <div id="login" *ngIf="logform">
+      <img id="logo" src="http://localhost/fitpro.png " width="175" />
+      <form>
+        <input
+          type="text"
+          name="username"
+          placeholder="Email"
+          id="username"
+          [(ngModel)]="email"
+        />
+        <input
+          type="password"
+          name="password"
+          placeholder="Password"
+          [(ngModel)]="password"
+        />
+        <br />
+        <button class="blue-btn" type="button" (click)="login()" style="cursor:pointer">Log In</button>
+      </form>
+      <div class="orRow">
+        <div class="line"></div>
+        <div id="or">OR</div>
+        <div class="line"></div>
+      </div>
+      <a href="#" id="FBLogin"
+        ><span class="fab fa-facebook-square"></span>Log in with DedalusId</a 
+      >
+      <div><p id="loginError"></p></div>
+      <!-- <a href="#" id="forgotPW">Forgot password?</a> -->
+    </div>
+    <div
+      id="signup"
+      colspan="2"
+      style="text-align: center; color: rgb(71, 71, 143)"
+      (click)="toggle()"
+    >
+      <p style="cursor: pointer">Don't have an account?Sign up</p>
+    </div>
+
+    <!-- <div class="loading" *ngIf="status">
+  <img src="http://localhost/download (1).jpg" alt="img" />
 </div>
+<div class="errors">{{ error }}</div> -->
+
+    <div id="login-card" *ngIf="!logform">
+      <table id="log-table">
+        <tr>
+          <th>Username</th>
+          <td><input type="text" [(ngModel)]="rusername" /></td>
+        </tr>
+        <tr>
+          <th>Password</th>
+          <td><input type="password" [(ngModel)]="rpassword" /></td>
+        </tr>
+
+        <tr>
+          <th>Verify Password</th>
+          <td><input type="password" [(ngModel)]="vpassword" /></td>
+        </tr>
+
+        <tr>
+          <th>Email</th>
+          <td><input type="text" [(ngModel)]="remail" /></td>
+        </tr>
+        <tr>
+          <td colspan="2" style="text-align: center">
+            <button (click)="register()">Register</button>
+          </td>
+        </tr>
+        <tr>
+          <td
+            colspan="2"
+            style="text-align: center; color: rgb(71, 71, 143)"
+            (click)="toggle()">
+            New Register! Click here
+          </td>
+        </tr>
+      </table>
+      <div class="loading" *ngIf="status">
+        <img src="http://localhostloading.gif" />
+      </div>
+      <div class="errors">{{ rerror }}</div>
+    </div>
+    <footer class="foot">
+      <p class="copyright">© 2023 FITPRO FROM DEDALUS</p>
+    </footer>
+    <!-- <script type="text/javascript" src="index.js"></script> -->
+  </body>
+</html>

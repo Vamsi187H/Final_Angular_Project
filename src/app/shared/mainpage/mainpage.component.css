@@ -1,10 +1,7 @@
 a {
   text-decoration: none;
 }
-/* .classs {
-  background-image: url("http://localhost/download (1).jpg");
-  background-size: cover;
-} */
+
 img {
   width: 17px;
   height: 17px;
@@ -22,7 +19,7 @@ a {
 .lgo {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
 }
 .logout {
   display: flex;
@@ -30,3 +27,19 @@ a {
   /* justify-content: space-between; */
   /* align-content: end; */
 }
+.tb {
+  width: 100%;
+}
+.comp {
+  /* font-size: 25px; */
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.forum:hover {
+  background-color: rgb(189, 181, 181);
+  padding:10px;
+  /* border: solid grey; */
+}
+
+/* ----------------------------------------------- */

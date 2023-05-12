@@ -1,7 +1,7 @@
 .details {
   border: 2px solid grey;
-  width: 200px;
-  height: 200px;
+  width: 800px;
+  height: 400px;
   padding: 20px;
   margin-left: 20px;
   margin-top: 20px;
@@ -11,6 +11,7 @@ img {
   padding: 20px;
   margin-left: 20px;
   margin-top: 20px;
+  height: 300px;
 }
 
 .flex {

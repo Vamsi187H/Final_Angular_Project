@@ -1,0 +1,1032 @@
+{
+  "diets": [
+    {
+      "id": 1,
+      "category": "Ketogenic diet",
+      "benefits": "Reduced dependence on medication.Improvements in insulin sensitivity Lower blood pressure.Usually improvements in cholesterol levels",
+      "image": "keto.jpg"
+    },
+    {
+      "id": 2,
+      "category": "Mediterranean diet",
+      "benefits": "Reduces Obesity and Type 2 Diabetes .Lowers Risk of Stroke and Coronary Heart Disease in Women .Improves Gut Health. Lowers Risk of Dementia and Cognitive Decline .May Reduce the Risk of Common Cancers Reduces High Blood Pressure.",
+      "image": "medit.jpg"
+    },
+    {
+      "id": 3,
+      "category": "South Beach Diet",
+      "benefits": "The South Beach Plan Is Simple.Low in Saturated Fats.Encourages Individuals To Experiment.Its A Healthy Diet.It Recommends Eating Heart-Healthy Unsaturated Fats.Promotes Consuming Complex Carbohydrates.Discourages Eating Junk Food.It Makes Food Cravings Cease.",
+      "image": "south.jpg"
+    },
+    {
+      "id": 4,
+      "category": "Gluten-free diet",
+      "benefits": "Elevated Energy Levels.Helps Maintain a Healthy Weight.Eliminates Bloating.Helps Ease Joint Pain.Eliminates Unhealthy and Processed Foods From Your Diet.Up Your Daily Intake of Fruits and Veggies.Going Gluten Free Can Improve Bone Health.Boost Creativity in the Kitchen.",
+      "image": "gluten.jpg"
+    },
+    {
+      "id": 5,
+      "category": "Mayo Clinic Diet",
+      "benefits": " Mayo Clinic Diet — can reduce your risk of weight-related health problems, such as diabetes, heart disease, high blood pressure and sleep apnea.",
+      "image": "mayo.jpg"
+    },
+    {
+      "id": 6,
+      "category": "Low-fat diet",
+      "benefits": "Assist with weight loss due to fewer total calories consumed. Help reduce the risk of obesity and heart disease. Help lower cholesterol levels.",
+      "image": "low.jpg"
+    },
+    {
+      "id": 7,
+      "category": "Vegan Diet",
+      "benefits": "This type of diet reduces your calorie consumption significantly, The diet is very low in fat but high in fibre, keeping you feeling fuller for longer. This diet plan helps maintain an ideal Body Mass Index.It is ethical and sustainable.",
+      "image": "vegan.jpg"
+    },
+    {
+      "id": 8,
+      "category": "Zone diet",
+      "benefits": "It helps diabetics maintain their blood sugar levels. It is known to reduce appetite and boost the weight loss process",
+      "image": "zone.jpg"
+    },
+    {
+      "id": 9,
+      "category": "Diabetic diet",
+      "benefits": "maintain general good health.better manage your blood glucose levels.achieve target blood lipid (fat) levels.maintain a healthy blood pressure.maintain a healthy body weight.prevent or slow the development of diabetes complications",
+      "image": "diab.jpg"
+    },
+    {
+      "id": 10,
+      "category": "Dukan Diet",
+      "benefits": "It helps boost your metabolic rate and reduces the production of the hunger hormone, ghrelin. Together, these effects lead to weight loss.",
+      "image": "dukan.jpg"
+    },
+    {
+      "id": 11,
+      "category": "Carnivore diet",
+      "benefits": "Carnivore Diet report a range of health benefits that include weight loss, fewer digestive issues, mental clarity, higher testosterone levels, reduced inflammation, and decreased insulin resistance.",
+      "image": "carni.jpg"
+    },
+    {
+      "id": 12,
+      "category": "Plant-based diet",
+      "benefits": " plant-based diet improves the health of your gut so you are better able to absorb the nutrients from food that support your immune system and reduce inflammation. Fiber can lower cholesterol and stabilize blood sugar and it's great for good bowel management.",
+      "image": "plant.jpg"
+    }
+  ],
+  "complaints": [
+    {}
+  ],
+  "forum": [
+    {
+      "id": 1,
+      "username": "charu",
+      "comment": "helloooooo"
+    },
+    {
+      "usernmae": "charumathi",
+      "comment": "heyyyyyy",
+      "id": 2
+    },
+    {
+      "usernmae": "charumathi",
+      "comment": "helllllo",
+      "id": 3
+    },
+    {
+      "usernmae": "vamsi",
+      "comment": "helo",
+      "id": 4
+    },
+    {
+      "usernmae": "vamsi",
+      "comment": "hello",
+      "id": 5
+    },
+    {
+      "usernmae": "vamsi",
+      "comment": "hello\n",
+      "id": 6
+    },
+    {
+      "usernmae": "vishnu123",
+      "comment": "Hello",
+      "id": 7
+    },
+    {
+      "usernmae": "vishnu123",
+      "comment": "",
+      "id": 8
+    },
+    {
+      "usernmae": "vishnu123",
+      "comment": "HELLO",
+      "id": 9
+    },
+    {
+      "usernmae": "vishnu123",
+      "comment": "HELLOj",
+      "id": 10
+    },
+    {
+      "usernmae": "vishnu123",
+      "comment": "Hello world ",
+      "id": 11
+    },
+    {
+      "usernmae": "vamsi",
+      "comment": "hello",
+      "id": 12
+    },
+    {
+      "usernmae": "vishnu123",
+      "comment": "hiii\n",
+      "id": 13
+    },
+    {
+      "username": "vishnu123",
+      "comment": "hlo\n",
+      "id": 14
+    },
+    {
+      "usernmae": "vamsi",
+      "comment": "heloo",
+      "id": 15
+    },
+    {
+      "usernmae": "vamsi",
+      "comment": "",
+      "id": 16
+    },
+    {
+      "usernmae": "vamsi",
+      "comment": "hello\n",
+      "id": 17
+    },
+    {
+      "username": "vishnu123",
+      "comment": "hello",
+      "id": 18
+    },
+    {
+      "username": "vishnu123",
+      "comment": "helo",
+      "id": 19
+    },
+    {
+      "username": "vamsi",
+      "id": 20
+    },
+    {
+      "username": "vamsi",
+      "comment": "",
+      "id": 21
+    }
+  ],
+  "users": [
+    {
+      "email": "anil@gmail.com",
+      "password": "$2a$10$qLCzxp8bYoFl0TUnM3khkOQed/oj6p0Vi9m91/WIlZqn6dzwsD",
+      "firstname": "A",
+      "lastname": "Ku",
+      "id": 1
+    },
+    {
+      "email": "rahul@gmail.com",
+      "password": "$2a$10$GN3udmMj3FOG3Ya.tp5VmuBqBVwY0dYU1ro74BpVxs8xB0./Gq",
+      "username": "rahul",
+      "lastname": "krishna",
+      "type": "user",
+      "id": 2
+    },
+    {
+      "email": "roger@gmail",
+      "password": "$2a$10$8VfL/mTrUsF7CsmFZBNCXuYKao0PM9CrOIxTn0iqWYoKD0vwPE",
+      "username": "ro",
+      "lastname": "Fede",
+      "type": "ad",
+      "id": 4
+    },
+    {
+      "email": "kiran@gmail",
+      "password": "$2a$10$QxNGN1c9fIgWiQ5KHNwZnOWlZq8cJm/xM27oriUKLGptO8s9Pb",
+      "username": "ki",
+      "type": "user",
+      "id": 5
+    },
+    {
+      "email": "jackson@gmail.",
+      "password": "$2a$10$.ZPImtvO49SX6YMHepjxV.PXhJoEDXuxnCtHG2bQ2KY/NErZ0S",
+      "username": "jack",
+      "type": "admin",
+      "lastname": "Mike",
+      "id": 6
+    },
+    {
+      "email": "naresh@gmail.",
+      "password": "$2a$10$OhQd/XS2d3PAiWrNnYWXleoGC.2bMdZajo/yd5BSAxbGeqLw7Y",
+      "username": "nar",
+      "type": "user",
+      "lastname": "M",
+      "id": 7
+    },
+    {
+      "email": "charubabu15@gmail.com",
+      "password": "$2a$10$kipxflGdUfInaxsFcj0YfO2crQ.ThdCMc3.M.hJQ1A6WFbFJWzh0y",
+      "username": "charu",
+      "type": "user",
+      "id": 8
+    },
+    {
+      "email": "chidanand@gmail.com",
+      "password": "$2a$10$vFoOE94MAAqNo9c9CpifmO/nPWmb9NQ9uZTqmTn5.I4EVGU1thmrW",
+      "username": "chida",
+      "type": "admin",
+      "id": 9
+    },
+    {
+      "email": "anjali@gmail.com",
+      "password": "$2a$10$D0TcxWWkV498OJpRymUvleYMuQyinj9uAKfTMNNXen.oZzLejxVDy",
+      "username": "Anjali",
+      "type": "user",
+      "id": 10
+    },
+    {
+      "email": "vamsi@gmail.com",
+      "password": "$2a$10$6Gtcmfw3aDENOjvY8ggG/ub6bviXy7VbympeMLMJWUXgxdM6/UEnm",
+      "username": "vamsi",
+      "type": "user",
+      "id": 11
+    },
+    {
+      "email": "vishanthan@gmail.com",
+      "password": "$2a$10$u7y1j9HPmwc8WsM/L3cFueASEk3DjYnnrZFwvcgweeW1YpaCRwUGy",
+      "username": "vishanthan shree",
+      "type": "user",
+      "id": 12
+    },
+    {
+      "email": "vamsi187@gmail.com",
+      "password": "$2a$10$AE6kWj46rCnQU.8g8sHrKOIeGW6EFPgv3dPx/hXTua3GQbqrrwKXK",
+      "username": "vamsi",
+      "type": "user",
+      "id": 13
+    },
+    {
+      "email": "vishnu187@gmail.com",
+      "password": "$2a$10$g.0/yl7QY8Dn2bxTODfkZuk5ygKfcZ0ioNMpIIgsk25kdciKlo//e",
+      "username": "vishnupriya",
+      "type": "user",
+      "id": 14
+    },
+    {
+      "email": "vishnu123@gmail.com",
+      "password": "$2a$10$a1q08VHp9BNUF9Xg9/dBvehggenUpikrWV30tbn4PZM4MaCwrXxIG",
+      "username": "vishnu123",
+      "type": "admin",
+      "id": 15
+    }
+  ],
+  "Nutrition": [
+    {
+      "id": 2,
+      "Food": "Milk skim",
+      "Measure": "1 qt.",
+      "Grams": 984,
+      "Calories": 360,
+      "Protein": 36,
+      "Fat": "t",
+      "Sat.Fat": "t",
+      "Fiber": 0,
+      "Carbs": 52,
+      "Category": "Dairy products",
+      "image": "image1.jpg"
+    },
+    {
+      "id": 3,
+      "Food": "Buttermilk",
+      "Measure": "1 cup",
+      "Grams": 246,
+      "Calories": 127,
+      "Protein": 9,
+      "Fat": 5,
+      "Sat.Fat": 4,
+      "Fiber": 0,
+      "Carbs": 13,
+      "Category": "Dairy products",
+      "image": "image2.jpg"
+    },
+    {
+      "id": 4,
+      "Food": "Evaporated, undiluted",
+      "Measure": "1 cup",
+      "Grams": 252,
+      "Calories": 345,
+      "Protein": 16,
+      "Fat": 20,
+      "Sat.Fat": 18,
+      "Fiber": 0,
+      "Carbs": 24,
+      "Category": "Dairy products",
+      "image": "image3.jpg"
+    },
+    {
+      "id": 5,
+      "Food": "Fortified milk",
+      "Measure": "6 cups",
+      "Grams": "1,419",
+      "Calories": "1,373",
+      "Protein": 89,
+      "Fat": 42,
+      "Sat.Fat": 23,
+      "Fiber": 1.4,
+      "Carbs": 119,
+      "Category": "Dairy products",
+      "image": "image4.jpg"
+    },
+    {
+      "id": 6,
+      "Food": "Powdered milk",
+      "Measure": "1 cup",
+      "Grams": 103,
+      "Calories": 515,
+      "Protein": 27,
+      "Fat": 28,
+      "Sat.Fat": 24,
+      "Fiber": 0,
+      "Carbs": 39,
+      "Category": "Dairy products",
+      "image": "image5.jpg"
+    },
+    {
+      "id": 7,
+      "Food": "skim, instant",
+      "Measure": "1 1/3 cups",
+      "Grams": 85,
+      "Calories": 290,
+      "Protein": 30,
+      "Fat": "t",
+      "Sat.Fat": "t",
+      "Fiber": 0,
+      "Carbs": 42,
+      "Category": "Dairy products",
+      "image": "image6.jpg"
+    },
+    {
+      "id": 8,
+      "Food": "skim, non-instant",
+      "Measure": "2/3 cup",
+      "Grams": 85,
+      "Calories": 290,
+      "Protein": 30,
+      "Fat": "t",
+      "Sat.Fat": "t",
+      "Fiber": 1,
+      "Carbs": 42,
+      "Category": "Dairy products",
+      "image": "image7.jpg"
+    },
+    {
+      "id": 9,
+      "Food": "Goats' milk",
+      "Measure": "1 cup",
+      "Grams": 244,
+      "Calories": 165,
+      "Protein": 8,
+      "Fat": 10,
+      "Sat.Fat": 8,
+      "Fiber": 0,
+      "Carbs": 11,
+      "Category": "Dairy products",
+      "image": "image8.jpg"
+    },
+    {
+      "id": 10,
+      "Food": "(1/2 cup ice cream)",
+      "Measure": "2 cups",
+      "Grams": 540,
+      "Calories": 690,
+      "Protein": 24,
+      "Fat": 24,
+      "Sat.Fat": 22,
+      "Fiber": 0,
+      "Carbs": 70,
+      "Category": "Dairy products",
+      "image": "image9.jpg"
+    },
+    {
+      "id": 11,
+      "Food": "Cocoa",
+      "Measure": "1 cup",
+      "Grams": 252,
+      "Calories": 235,
+      "Protein": 8,
+      "Fat": 11,
+      "Sat.Fat": 10,
+      "Fiber": 0,
+      "Carbs": 26,
+      "Category": "Dairy products",
+      "image": "ima1.jpg"
+    },
+    {
+      "id": 12,
+      "Food": "skim. milk",
+      "Measure": "1 cup",
+      "Grams": 250,
+      "Calories": 128,
+      "Protein": 18,
+      "Fat": 4,
+      "Sat.Fat": 3,
+      "Fiber": 1,
+      "Carbs": 13,
+      "Category": "Dairy products",
+      "image": "ima2.jpg"
+    },
+    {
+      "id": 13,
+      "Food": "(cornstarch)",
+      "Measure": "1 cup",
+      "Grams": 248,
+      "Calories": 275,
+      "Protein": 9,
+      "Fat": 10,
+      "Sat.Fat": 9,
+      "Fiber": 0,
+      "Carbs": 40,
+      "Category": "Dairy products",
+      "image": "ima3.jpg"
+    },
+    {
+      "id": 14,
+      "Food": "Yolks",
+      "Measure": 2,
+      "Grams": 34,
+      "Calories": 120,
+      "Protein": 6,
+      "Fat": 10,
+      "Sat.Fat": 8,
+      "Fiber": 0,
+      "Carbs": "t",
+      "Category": "Fats, Oils, Shortenings",
+      "image": "i1.jpg"
+    },
+    {
+      "id": 15,
+      "Food": "Butter",
+      "Measure": "1T.",
+      "Grams": 14,
+      "Calories": 100,
+      "Protein": "t",
+      "Fat": 11,
+      "Sat.Fat": 10,
+      "Fiber": 0,
+      "Carbs": "t",
+      "Category": "Fats, Oils, Shortenings",
+      "image": "i2.jpg"
+    },
+    {
+      "id": 16,
+      "Food": "Butter",
+      "Measure": "1/2 cup",
+      "Grams": 112,
+      "Calories": 113,
+      "Protein": 114,
+      "Fat": 115,
+      "Sat.Fat": 116,
+      "Fiber": 117,
+      "Carbs": 118,
+      "Category": "Fats, Oils, Shortenings",
+      "image": "i3.jpg"
+    },
+    {
+      "id": 17,
+      "Food": "Curd",
+      "Measure": "1/4 lb.",
+      "Grams": 112,
+      "Calories": 113,
+      "Protein": 114,
+      "Fat": 115,
+      "Sat.Fat": 116,
+      "Fiber": 117,
+      "Carbs": 118,
+      "Category": "Fats, Oils, Shortenings",
+      "image": "i4.jpg"
+    },
+    {
+      "id": 18,
+      "Food": "Hydrogenated cooking fat",
+      "Measure": "1/2 cup",
+      "Grams": 100,
+      "Calories": 665,
+      "Protein": 0,
+      "Fat": 100,
+      "Sat.Fat": 88,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Fats, Oils, Shortenings",
+      "image": "i5.jpg"
+    },
+    {
+      "id": 19,
+      "Food": "Lard",
+      "Measure": "1/2 cup",
+      "Grams": 110,
+      "Calories": 992,
+      "Protein": 0,
+      "Fat": 110,
+      "Sat.Fat": 92,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Fats, Oils, Shortenings",
+      "image": "i6.jpg"
+    },
+    {
+      "id": 20,
+      "Food": "Margarine",
+      "Measure": "1/2 cup",
+      "Grams": 112,
+      "Calories": 806,
+      "Protein": "t",
+      "Fat": 91,
+      "Sat.Fat": 76,
+      "Fiber": 0,
+      "Carbs": "t",
+      "Category": "Fats, Oils, Shortenings",
+      "image": "i7.jpg"
+    },
+    {
+      "id": 21,
+      "Food": "Margarine, 2 pat or",
+      "Measure": "1 T.",
+      "Grams": 14,
+      "Calories": 100,
+      "Protein": "t",
+      "Fat": 11,
+      "Sat.Fat": 9,
+      "Fiber": 0,
+      "Carbs": "t",
+      "Category": "Fats, Oils, Shortenings",
+      "image": "i8.jpg"
+    },
+    {
+      "id": 22,
+      "Food": "Mayonnaise",
+      "Measure": "1 T.",
+      "Grams": 15,
+      "Calories": 110,
+      "Protein": "t",
+      "Fat": 12,
+      "Sat.Fat": 5,
+      "Fiber": 0,
+      "Carbs": "t",
+      "Category": "Fats, Oils, Shortenings",
+      "image": "i9.jpg"
+    },
+    {
+      "id": 23,
+      "Food": "Corn oil",
+      "Measure": "1 T.",
+      "Grams": 14,
+      "Calories": 125,
+      "Protein": 0,
+      "Fat": 14,
+      "Sat.Fat": 5,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Fats, Oils, Shortenings",
+      "image": "i10.jpg"
+    },
+    {
+      "id": 24,
+      "Food": "Olive oil",
+      "Measure": "1T.",
+      "Grams": 14,
+      "Calories": 125,
+      "Protein": 0,
+      "Fat": 14,
+      "Sat.Fat": 3,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Fats, Oils, Shortenings",
+      "image": "i11.jpg"
+    },
+    {
+      "id": 25,
+      "Food": "Safflower seed oil",
+      "Measure": "1 T.",
+      "Grams": 14,
+      "Calories": 125,
+      "Protein": 0,
+      "Fat": 14,
+      "Sat.Fat": 3,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Fats, Oils, Shortenings",
+      "image": "i12.jpg"
+    },
+    {
+      "id": 26,
+      "Food": "Salt pork",
+      "Measure": "2 oz.",
+      "Grams": 60,
+      "Calories": 470,
+      "Protein": 3,
+      "Fat": 55,
+      "Sat.Fat": "",
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Meat, Poultry",
+      "image": "ia1.jpg"
+    },
+    {
+      "id": 27,
+      "Food": "Bacon",
+      "Measure": "2 slices",
+      "Grams": 16,
+      "Calories": 95,
+      "Protein": 4,
+      "Fat": 8,
+      "Sat.Fat": 7,
+      "Fiber": 0,
+      "Carbs": 1,
+      "Category": "Meat, Poultry",
+      "image": "ia2.jpg"
+    },
+    {
+      "id": 28,
+      "Food": "Beef",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 245,
+      "Protein": 23,
+      "Fat": 16,
+      "Sat.Fat": 15,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Meat, Poultry",
+      "image": "ia3.jpg"
+    },
+    {
+      "id": 29,
+      "Food": "Hamburger",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 245,
+      "Protein": 21,
+      "Fat": 17,
+      "Sat.Fat": 15,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Meat, Poultry",
+      "image": "ia4.jpg"
+    },
+    {
+      "id": 30,
+      "Food": "Ground lean",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 185,
+      "Protein": 24,
+      "Fat": 10,
+      "Sat.Fat": 9,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Meat, Poultry",
+      "image": "ia5.jpg"
+    },
+    {
+      "id": 31,
+      "Food": "Roast beef",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 390,
+      "Protein": 16,
+      "Fat": 36,
+      "Sat.Fat": 35,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Meat, Poultry",
+      "image": "ia6.jpg"
+    },
+    {
+      "id": 32,
+      "Food": "Steak",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 330,
+      "Protein": 20,
+      "Fat": 27,
+      "Sat.Fat": 25,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Meat, Poultry",
+      "image": "ia7.jpg"
+    },
+    {
+      "id": 33,
+      "Food": "Steak, lean, as round",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 220,
+      "Protein": 24,
+      "Fat": 12,
+      "Sat.Fat": 11,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Meat, Poultry",
+      "image": "ia8.jpg"
+    },
+    {
+      "id": 34,
+      "Food": "Corned beef",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 185,
+      "Protein": 22,
+      "Fat": 10,
+      "Sat.Fat": 9,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Meat, Poultry",
+      "image": "ia9.jpg"
+    },
+    {
+      "id": 35,
+      "Food": "Corned beef hash canned",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 120,
+      "Protein": 12,
+      "Fat": 8,
+      "Sat.Fat": 7,
+      "Fiber": "t",
+      "Carbs": 6,
+      "Category": "Meat, Poultry",
+      "image": "ia10.jpg"
+    },
+    {
+      "id": 36,
+      "Food": "Corned beef hash Dried",
+      "Measure": "2 oz.",
+      "Grams": 56,
+      "Calories": 115,
+      "Protein": 19,
+      "Fat": 4,
+      "Sat.Fat": 4,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Meat, Poultry",
+      "image": "ia11.jpg"
+    },
+    {
+      "id": 37,
+      "Food": "Pot-pie",
+      "Measure": "1 pie",
+      "Grams": 227,
+      "Calories": 480,
+      "Protein": 18,
+      "Fat": 28,
+      "Sat.Fat": 25,
+      "Fiber": "t",
+      "Carbs": 32,
+      "Category": "Meat, Poultry",
+      "image": "ia12.jpg"
+    },
+    {
+      "id": 38,
+      "Food": "Corned beef hash Stew",
+      "Measure": "1 cup",
+      "Grams": 235,
+      "Calories": 185,
+      "Protein": 15,
+      "Fat": 10,
+      "Sat.Fat": 9,
+      "Fiber": "t",
+      "Carbs": 15,
+      "Category": "Meat, Poultry",
+      "image": "ia13.jpg"
+    },
+    {
+      "id": 39,
+      "Food": "Clams",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 87,
+      "Protein": 12,
+      "Fat": 1,
+      "Sat.Fat": 0,
+      "Fiber": 0,
+      "Carbs": 2,
+      "Category": "Fish, Seafood",
+      "image": "ima1.jpg"
+    },
+    {
+      "id": 40,
+      "Food": "Cod",
+      "Measure": "3 1/2 oz.",
+      "Grams": 100,
+      "Calories": 170,
+      "Protein": 28,
+      "Fat": 5,
+      "Sat.Fat": 0,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Fish, Seafood",
+      "image": "ima2.jpg"
+    },
+    {
+      "id": 41,
+      "Food": "Crab meat",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 90,
+      "Protein": 14,
+      "Fat": 2,
+      "Sat.Fat": 0,
+      "Fiber": 0,
+      "Carbs": 1,
+      "Category": "Fish, Seafood",
+      "image": "ima3.jpg"
+    },
+    {
+      "id": 42,
+      "Food": "Fish sticks fried",
+      "Measure": 5,
+      "Grams": 112,
+      "Calories": 200,
+      "Protein": 19,
+      "Fat": 10,
+      "Sat.Fat": 5,
+      "Fiber": 0,
+      "Carbs": 8,
+      "Category": "Fish, Seafood",
+      "image": "ima4.jpg"
+    },
+    {
+      "id": 43,
+      "Food": "Flounder",
+      "Measure": "3 1/2 oz.",
+      "Grams": 100,
+      "Calories": 200,
+      "Protein": 30,
+      "Fat": 8,
+      "Sat.Fat": 0,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Fish, Seafood",
+      "image": "ima5.jpg"
+    },
+    {
+      "id": 44,
+      "Food": "Haddock",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 135,
+      "Protein": 16,
+      "Fat": 5,
+      "Sat.Fat": 4,
+      "Fiber": 0,
+      "Carbs": 6,
+      "Category": "Fish, Seafood",
+      "image": "ima6.jpg"
+    },
+    {
+      "id": 45,
+      "Food": "Halibut",
+      "Measure": "3 1/2 oz.",
+      "Grams": 100,
+      "Calories": 182,
+      "Protein": 26,
+      "Fat": 8,
+      "Sat.Fat": 0,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Fish, Seafood",
+      "image": "ima7.jpg"
+    },
+    {
+      "id": 46,
+      "Food": "Herring",
+      "Measure": "1 small",
+      "Grams": 100,
+      "Calories": 211,
+      "Protein": 22,
+      "Fat": 13,
+      "Sat.Fat": 0,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Fish, Seafood",
+      "image": "ima8.jpg"
+    },
+    {
+      "id": 47,
+      "Food": "Lobster",
+      "Measure": "aver.",
+      "Grams": 100,
+      "Calories": 92,
+      "Protein": 18,
+      "Fat": 1,
+      "Sat.Fat": 0,
+      "Fiber": 0,
+      "Carbs": "t",
+      "Category": "Fish, Seafood",
+      "image": "ima9.jpg"
+    },
+    {
+      "id": 48,
+      "Food": "Mackerel",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 155,
+      "Protein": 18,
+      "Fat": 9,
+      "Sat.Fat": 0,
+      "Fiber": "a",
+      "Carbs": 0,
+      "Category": "Fish, Seafood",
+      "image": "ima10.jpg"
+    },
+    {
+      "id": 49,
+      "Food": "Oysters",
+      "Measure": "6-8 med.",
+      "Grams": 230,
+      "Calories": 231,
+      "Protein": 232,
+      "Fat": 233,
+      "Sat.Fat": 234,
+      "Fiber": 235,
+      "Carbs": 236,
+      "Category": "Fish, Seafood",
+      "image": "ima11.jpg"
+    },
+    {
+      "id": 50,
+      "Food": "Oyster stew",
+      "Measure": "1 cup",
+      "Grams": 85,
+      "Calories": 125,
+      "Protein": 19,
+      "Fat": 6,
+      "Sat.Fat": 1,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Fish, Seafood",
+      "image": "ima12.jpg"
+    },
+    {
+      "id": 51,
+      "Food": "Salmon",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 120,
+      "Protein": 17,
+      "Fat": 5,
+      "Sat.Fat": 1,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Fish, Seafood",
+      "image": "ima13.jpg"
+    },
+    {
+      "id": 52,
+      "Food": "Sardines",
+      "Measure": "3 oz.",
+      "Grams": 85,
+      "Calories": 180,
+      "Protein": 22,
+      "Fat": 9,
+      "Sat.Fat": 4,
+      "Fiber": 0,
+      "Carbs": 0,
+      "Category": "Fish, Seafood",
+      "image": "ima14.jpg"
+    },
+    {
+      "Food": "Goat",
+      "Measure": "23",
+      "Grams": "45",
+      "Calories": "107",
+      "Protein": "57",
+      "Fat": "30",
+      "Sat_Fat": "23",
+      "Fiber": "233",
+      "Carbs": "233",
+      "Category": "222",
+      "id": 53
+    },
+    {
+      "Food": "Goat",
+      "Measure": "23",
+      "Grams": "45",
+      "Calories": "107",
+      "Protein": "57",
+      "Fat": "35",
+      "Sat_Fat": "23",
+      "Fiber": "233",
+      "Carbs": "233",
+      "Category": "Meat",
+      "Image": "i1.jpg",
+      "id": 56
+    }
+  ]
+}

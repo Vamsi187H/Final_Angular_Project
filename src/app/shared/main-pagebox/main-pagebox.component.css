@@ -1,0 +1,45 @@
+a {
+  text-decoration: none;
+}
+
+img {
+  width: 17px;
+  height: 17px;
+  padding-right: 3px;
+  cursor: pointer;
+  /* border: 1px solid greenyellow; */
+}
+.class {
+  display: flex;
+  justify-content: space-between;
+}
+a {
+  margin: 0 0.5rem;
+}
+.lgo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logout {
+  display: flex;
+  float: right;
+  /* justify-content: space-between; */
+  /* align-content: end; */
+}
+.tb {
+  width: 100%;
+}
+.comp {
+  /* font-size: 25px; */
+  font-weight: bold;
+  font-family: Arial, sans-serif;
+}
+
+.forum:hover {
+  background-color: rgb(189, 181, 181);
+  padding: 10px;
+  /* border: solid grey; */
+}
+
+/* ----------------------------------------------- */

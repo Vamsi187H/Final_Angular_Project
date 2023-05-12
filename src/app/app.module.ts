@@ -11,6 +11,7 @@ import { UserModule } from './user/user.module';
 import { AdminModule } from './admin/admin.module';
 import { HttpClientModule } from '@angular/common/http';
 import { Ng2SearchPipeModule } from 'ng2-search-filter';
+import { DietfilterPipe } from './pipes/dietfilter.pipe';
 
 @NgModule({
   declarations: [AppComponent, LoginComponent],
