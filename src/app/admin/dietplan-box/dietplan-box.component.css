@@ -1,42 +1,33 @@
-/* form {
-    max-width: 450px;
-    margin: 30px auto;
-    }
-    
-    
-    .margin-t10{
-      margin-top: 20px;
-    } */
 /* Style for form container */
 
 /* Center the form on the page */
-form {
+/* form {
   display: flex;
   flex-direction: column;
   align-items: center;
   margin: 50px auto;
   max-width: 500px;
-}
+} */
 
 /* Style the form labels */
-label {
+/* label {
   display: block;
   margin-bottom: 10px;
   font-weight: bold;
-}
+} */
 
 /* Style the form inputs */
-input {
+/* input {
   display: block;
   width: 100%;
   padding: 10px;
   margin-bottom: 20px;
   border-radius: 5px;
   border: 1px solid #ccc;
-}
+} */
 
 /* Style the submit button */
-button {
+/* button {
   padding: 10px 20px;
   border-radius: 5px;
   border: none;
@@ -44,7 +35,7 @@ button {
   color: #fff;
   font-weight: bold;
   cursor: pointer;
-}
+} */
 
 /* Style the error messages */
 .ng-invalid.ng-touched {
@@ -54,4 +45,46 @@ button {
 .ng-invalid.ng-touched + label {
   color: #dc3545;
 }
+.hovers {
+  padding: 20px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+}
 
+.form-group {
+  margin-bottom: 10px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #dc3545;
+  border: none;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+button:hover {
+  background-color: #c82333;
+}
+
+.error {
+  color: #dc3545;
+}

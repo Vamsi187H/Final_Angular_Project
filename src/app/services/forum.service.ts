@@ -25,4 +25,11 @@ export class ForumService {
   postForum(obj: any): Observable<any> {
     return this.http.post('http://localhost:4500/forum', obj, this.httpOptions);
   }
+  updateForum(obj: any, id: any): Observable<any> {
+    return this.http.patch(
+      'http://localhost:4500/forum/' + id,
+      obj,
+      this.httpOptions
+    );
+  }
 }

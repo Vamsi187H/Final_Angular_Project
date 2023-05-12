@@ -21,10 +21,11 @@ import { DietboxBoxComponent } from './userhome/supported-dietbox/dietbox-box/di
 import { DetailsboxBoxComponent } from './userhome/supported-dietbox/dietbox-box/detailsbox-box/detailsbox-box.component';
 import { DietfilterPipe } from '../pipes/dietfilter.pipe';
 import { ForumboxComponent } from './userhome/forum-box/forumbox/forumbox.component';
+import { CreateDietplanComponent } from './userhome/create-dietplan/create-dietplan.component';
 
 const route: Routes = [
   { path: 'detailsbox/:id', component: DetailsBoxComponent },
-  { path: 'detailsbox-box/:id', component:DetailsboxBoxComponent  },
+  { path: 'detailsbox-box/:id', component: DetailsboxBoxComponent },
   {
     path: 'home',
     component: HomeComponent,
@@ -37,6 +38,7 @@ const route: Routes = [
       { path: 'forum', component: ForumBoxComponent },
       { path: 'comp', component: ComplaintBoxComponent },
       { path: 'dietp', component: SupportedDietboxComponent },
+      { path: 'create', component: CreateDietplanComponent },
     ],
   },
 ];
@@ -56,6 +58,7 @@ const route: Routes = [
     DetailsboxBoxComponent,
     DietfilterPipe,
     ForumboxComponent,
+    CreateDietplanComponent,
   ],
   imports: [
     CommonModule,

@@ -1,7 +1,7 @@
-<!-- <p>sforum works!</p> -->
-
-<h1>Forum!!</h1>
-
+<!-- <p>aforum works!</p> -->
+<!-- <app-sforum></app-sforum> -->
+<app-main-pagebox></app-main-pagebox>
+<h1>Join the Forum!!</h1>
 <div class="fb">
   <textarea
     name="fb"
@@ -10,20 +10,11 @@
     [(ngModel)]="com"
     [ngModelOptions]="{ standalone: true }"
   ></textarea>
-
   <button (click)="onPost()">Post!!</button>
 </div>
-
 <!-- <mat-card>
-
     <mat-card-content *ngFor="let x of forums">{{x.comment}}</mat-card-content>
-
 </mat-card> -->
-
 <div class="fc">
   <app-comp-forum *ngFor="let x of forums" [pd]="x"></app-comp-forum>
 </div>
-
-<!-- <p *ngFor="let x of forums">
-
-    {{x.comment}}</p> -->

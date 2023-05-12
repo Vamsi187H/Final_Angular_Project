@@ -7,21 +7,7 @@ import { DietService } from 'src/app/services/diet.service';
   styleUrls: ['./supported-dietbox.component.css'],
 })
 export class SupportedDietboxComponent {
-  types = [
-    'All',
-    'Ketogenic diet',
-    'Mediterranean diet',
-    'South Beach Diet',
-    'Gluten-free diet',
-    'Mayo Clinic Diet',
-    'Low-fat diet',
-    'Plant-based diet',
-    'Vegan Diet',
-    'Zone diet',
-    'Diabetic diet',
-    'Dukan Diet',
-  ];
-  selected = 'All';
+  // selected = 'All';
   names: any;
 
   constructor(hs: DietService) {

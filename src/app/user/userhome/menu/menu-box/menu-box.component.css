@@ -1,4 +1,4 @@
-.example-card {
+/* .example-card {
   width: 300px;
   height: 400px;
   margin: 20px;
@@ -20,4 +20,37 @@ img {
   background-color: gray;
   text-decoration: none;
   color: black;
+} */
+/* .example-card {
+  max-width: 400px;
+  margin: 20px;
 }
+
+.example-header-image {
+  background-image: url("https://example.com/image.jpg");
+  background-size: cover;
+}
+
+.mat-card-image {
+  object-fit: cover;
+  height: 200px;
+}
+
+.buttonbox {
+  color: white;
+  text-decoration: none;
+  background-color: #007bff;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.buttonbox:hover {
+  background-color: #0062cc;
+} */
+
+/* Custom directive */
+/* .mat-card {
+  background-color: #f0f0f0;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+} */

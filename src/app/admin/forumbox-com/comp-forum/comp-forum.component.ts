@@ -1,4 +1,5 @@
 import { Component, Input } from '@angular/core';
+import { ForumService } from 'src/app/services/forum.service';
 
 @Component({
   selector: 'app-comp-forum',
@@ -8,20 +9,37 @@ import { Component, Input } from '@angular/core';
 export class CompForumComponent {
   @Input() pd: any;
 
-  isReplay = false;
-  replayText = '';
-  replay() {
-    if (this.isReplay == false) {
-      this.isReplay = true;
+  // reply() {
+  //   // Add your reply logic here
+  //   console.log('Reply button clicked');
+  isReply = false;
+  replyText = '';
+  constructor(private us: ForumService) {}
+  reply() {
+    if (this.isReply == false) {
+      this.isReply = true;
     } else {
-      this.isReplay = false;
+      this.isReply = false;
     }
-    console.log('Replay Clicked');
+    console.log('Reply button clicked');
   }
-
-  submitReplay() {
-    console.log(this.replayText);
-    this.replayText = '';
-    this.isReplay = false;
+  submitReply() {
+    let un = sessionStorage.getItem('username');
+    let rl = this.pd.reply;
+    let obj1 = {
+      username: un,
+      comment: this.replyText,
+    };
+    rl.push(obj1);
+    this.us.updateForum({ reply: rl }, this.pd.id).subscribe({
+      next: () => {
+        alert('reply successful');
+      },
+      error: () => {
+        alert('reply failed');
+      },
+    });
+    this.replyText = '';
+    this.isReply = false;
   }
 }

@@ -1,0 +1,21 @@
+.complaints {
+  border: 1px solid black;
+  width: 350px;
+}
+.complaints {
+  border: 1px solid #ccc;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+  background-color: #f8f8f8;
+  color: #333;
+}
+
+.complaints strong {
+  font-weight: bold;
+}
+
+.complaints br {
+  display: none;
+}

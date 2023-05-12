@@ -11,6 +11,8 @@ import { HttpClientModule } from '@angular/common/http';
 import { MaterialModule } from '../materials/materials.module';
 import { ForumboxComComponent } from './forumbox-com/forumbox-com.component';
 import { CompForumComponent } from './forumbox-com/comp-forum/comp-forum.component';
+import { ComplaintsboxComponent } from './complaintsbox/complaintsbox.component';
+import { CompComponent } from './complaintsbox/comp/comp.component';
 
 const route: Routes = [
   {
@@ -29,6 +31,10 @@ const route: Routes = [
     path: 'delete-diet-plan',
     component: DietplanBoxComponent,
   },
+  {
+    path: 'complaints',
+    component: ComplaintsboxComponent,
+  }
 ];
 
 @NgModule({
@@ -38,6 +44,8 @@ const route: Routes = [
     AdminHomeComponent,
     ForumboxComComponent,
     CompForumComponent,
+    ComplaintsboxComponent,
+    CompComponent,
   ],
   imports: [
     CommonModule,
