@@ -23,6 +23,8 @@ img {
   width: 500px;
   padding: 40px;
 } */
+
+/* -------------------------------------- */
 .flex {
   display: flex;
   justify-content: space-between;
