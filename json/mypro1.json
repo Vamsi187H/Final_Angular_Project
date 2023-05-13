@@ -10,67 +10,67 @@
       "id": 2,
       "category": "Mediterranean diet",
       "benefits": "Reduces Obesity and Type 2 Diabetes .Lowers Risk of Stroke and Coronary Heart Disease in Women .Improves Gut Health. Lowers Risk of Dementia and Cognitive Decline .May Reduce the Risk of Common Cancers Reduces High Blood Pressure.",
-      "image": "medit.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 3,
       "category": "South Beach Diet",
       "benefits": "The South Beach Plan Is Simple.Low in Saturated Fats.Encourages Individuals To Experiment.Its A Healthy Diet.It Recommends Eating Heart-Healthy Unsaturated Fats.Promotes Consuming Complex Carbohydrates.Discourages Eating Junk Food.It Makes Food Cravings Cease.",
-      "image": "south.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 4,
       "category": "Gluten-free diet",
       "benefits": "Elevated Energy Levels.Helps Maintain a Healthy Weight.Eliminates Bloating.Helps Ease Joint Pain.Eliminates Unhealthy and Processed Foods From Your Diet.Up Your Daily Intake of Fruits and Veggies.Going Gluten Free Can Improve Bone Health.Boost Creativity in the Kitchen.",
-      "image": "gluten.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 5,
       "category": "Mayo Clinic Diet",
       "benefits": " Mayo Clinic Diet — can reduce your risk of weight-related health problems, such as diabetes, heart disease, high blood pressure and sleep apnea.",
-      "image": "mayo.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 6,
       "category": "Low-fat diet",
       "benefits": "Assist with weight loss due to fewer total calories consumed. Help reduce the risk of obesity and heart disease. Help lower cholesterol levels.",
-      "image": "low.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 7,
       "category": "Vegan Diet",
       "benefits": "This type of diet reduces your calorie consumption significantly, The diet is very low in fat but high in fibre, keeping you feeling fuller for longer. This diet plan helps maintain an ideal Body Mass Index.It is ethical and sustainable.",
-      "image": "vegan.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 8,
       "category": "Zone diet",
       "benefits": "It helps diabetics maintain their blood sugar levels. It is known to reduce appetite and boost the weight loss process",
-      "image": "zone.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 9,
       "category": "Diabetic diet",
       "benefits": "maintain general good health.better manage your blood glucose levels.achieve target blood lipid (fat) levels.maintain a healthy blood pressure.maintain a healthy body weight.prevent or slow the development of diabetes complications",
-      "image": "diab.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 10,
       "category": "Dukan Diet",
       "benefits": "It helps boost your metabolic rate and reduces the production of the hunger hormone, ghrelin. Together, these effects lead to weight loss.",
-      "image": "dukan.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 11,
       "category": "Carnivore diet",
       "benefits": "Carnivore Diet report a range of health benefits that include weight loss, fewer digestive issues, mental clarity, higher testosterone levels, reduced inflammation, and decreased insulin resistance.",
-      "image": "carni.jpg"
+      "image": "keto.jpg"
     },
     {
       "id": 12,
       "category": "Plant-based diet",
       "benefits": " plant-based diet improves the health of your gut so you are better able to absorb the nutrients from food that support your immune system and reduce inflammation. Fiber can lower cholesterol and stabilize blood sugar and it's great for good bowel management.",
-      "image": "plant.jpg"
+      "image": "keto.jpg"
     }
   ],
   "complaints": [
