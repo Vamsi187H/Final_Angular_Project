@@ -1,5 +1,5 @@
 <div>
-  <div cdkDropListGroup>
+  <div cdkDropListGroup class="cont">
     <div class="example-container">
       <h2>Available items</h2>
       <div
@@ -11,6 +11,7 @@
       >
         <div class="example-box" *ngFor="let item of products" cdkDrag>
           {{ item.Food }}
+          <img src="http://localhost/{{ item.image }}" class="logo" />
         </div>
       </div>
     </div>
@@ -37,13 +38,18 @@
           </div>
         </div>
       </div>
-      <button mat-raised-button color="primary" (click)="calculateNutrition()">
+      <button
+        style="margin-top: 1rem"
+        mat-raised-button
+        color="primary"
+        (click)="calculateNutrition()"
+      >
         Calculate Nutrition
       </button>
       <div *ngIf="basket.length > 0" class="result">
         <h2>Nutrition Information</h2>
         <p>Total Calories: {{ totalCalories }}</p>
-        <p>Total Fat: {{ totalFat }}g</p>
+        <!-- <p>Total Fat: {{ totalFat }}g</p> -->
         <p>Total Protein: {{ totalProtein }}g</p>
         <p>Total Carbs: {{ totalCarbs }}g</p>
       </div>

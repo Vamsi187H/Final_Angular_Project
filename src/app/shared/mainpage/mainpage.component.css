@@ -23,7 +23,8 @@ a {
 }
 .logout {
   display: flex;
-  float: right;
+  align-items: flex-end;
+  justify-content: space-between;
   /* justify-content: space-between; */
   /* align-content: end; */
 }
@@ -38,8 +39,11 @@ a {
 
 .forum:hover {
   background-color: rgb(189, 181, 181);
-  padding:10px;
+  padding: 10px;
   /* border: solid grey; */
+}
+.rgt {
+  margin-left: 35rem;
 }
 
 /* ----------------------------------------------- */
